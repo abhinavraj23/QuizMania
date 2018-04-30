@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">QuizMania</string>
+    <string name="facebook_app_id">177376666243714</string>
+    <string name="fb_login_protocol_scheme">fb177376666243714</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="credentials"><![CDATA[CREDENTIALS & HIGHLIGHT]]></string>
+    <string name="q">Q</string>
+    <string name="temp_quest_display">Questions are displayed over here</string>
+    <string name="question_no">no</string>
+    <string name="option_1">OPTION 1</string>
+    <string name="option_2">OPTION 2</string>
+</resources>

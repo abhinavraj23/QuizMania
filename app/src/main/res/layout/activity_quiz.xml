@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.abhinav.quizmania.QuizActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="serif"
+            android:hint="@string/q"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:hint="@string/question_no"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="serif"
+            android:hint="@string/temp_quest_display"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="24sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/opt1"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:fontFamily="serif"
+            android:hint="@string/option_1"
+            android:background="@drawable/rounded_corner_yellow"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="14sp" />
+        <Button
+            android:id="@+id/opt2"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:fontFamily="serif"
+            android:layout_marginTop="30dp"
+            android:hint="@string/option_2"
+            android:background="@drawable/rounded_corner_yellow"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="14sp" />
+        <Button
+            android:id="@+id/opt3"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:fontFamily="serif"
+            android:hint="OPTION 3"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/rounded_corner_yellow"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="14sp" />
+        <Button
+            android:id="@+id/opt4"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:fontFamily="serif"
+            android:hint="OPTION 4"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/rounded_corner_yellow"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
