@@ -24,6 +24,7 @@ public class FragmentOne extends Fragment {
 
     public FragmentOne() {
         // Required empty public constructor
+        //not useful
     }
 
     @Override
